@@ -1,0 +1,8 @@
+[requires]
+docopt.cpp/0.6.2
+fmt/6.2.1
+spdlog/1.6.1
+doctest/2.4.0
+
+[generators]
+cmake_find_package
