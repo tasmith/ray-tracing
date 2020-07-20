@@ -1,0 +1,8 @@
+---
+# This is a .clang-tidy file that disables checks in this test subdirectory,
+# needed because of the large amount of (trivial) informative output due
+# to doctest macros, etc.
+Checks:          '-*,misc-definitions-in-headers'
+CheckOptions:
+  - { key: HeaderFileExtensions,  value: "X" }
+

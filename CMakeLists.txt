@@ -188,6 +188,7 @@ include_directories(${PROJECT_SOURCE_DIR}/src)
 set(SOURCE_FILES
   ${PROJECT_SOURCE_DIR}/src/main.cpp
   ${PROJECT_SOURCE_DIR}/src/factorial.cpp
+  ${PROJECT_SOURCE_DIR}/src/geometry.cpp
   )
 add_library(raylib ${SOURCE_FILES})
 target_link_libraries(raylib my_compiler_flags docopt.cpp::docopt.cpp fmt::fmt spdlog::spdlog)
